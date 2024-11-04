@@ -1,54 +1,58 @@
-# AIproject
-Personal Digital Footprint Cleaner
+# CleanMyTrace: Personal Digital Footprint Cleaner
 
-1. Idea in a Nutshell
+Final project for the Building AI course
 
-Develop an AI-powered app called “CleanMyTrace” that helps individuals manage and minimize their digital footprint. CleanMyTrace would scan for outdated online accounts, exposed personal information, and privacy risks. It would guide users in securely cleaning up their online presence, reducing the risk of data leaks, identity theft, and unwanted tracking.
+## Summary
+CleanMyTrace is an AI-powered application designed to help individuals manage and minimize their digital footprint. It scans for outdated online accounts, exposed personal information, and privacy risks, providing users with actionable steps to clean up their online presence and reduce the risk of data leaks, identity theft, and unwanted tracking.
 
-2. Background
 
-The average person has accounts and information scattered across the internet. From old social media profiles to accounts on forgotten websites, these unused or forgotten assets create privacy risks, increase vulnerability to hacking, and expose personal information. Many people are unaware of the extent of their digital footprint or the potential risks it brings. This problem is particularly relevant today as data breaches and online privacy concerns grow, and many people wish they could regain control over their digital lives.
+## Background
+Problem Statement
+In today’s digital world, the average person has dozens of accounts and personal information scattered across the internet. Old social media profiles, inactive accounts, and publicly accessible data increase vulnerability to hacking, privacy risks, and unwanted tracking. Many people wish to regain control over their digital lives but don’t know where to start. CleanMyTrace addresses this issue by helping users discover, assess, and reduce their digital footprint.
 
-3. Data and AI Techniques
 
-	•	Data Sources:
-	•	User-provided information about online accounts and known platforms (like Google, Facebook, LinkedIn).
-	•	Publicly available data and APIs to track linked accounts and public mentions.
-	•	Dark web monitoring to check for any exposed information or credentials.
-	•	AI Techniques:
-	•	Machine Learning algorithms to recognize and categorize risky accounts based on user behavior, login history, and account activity.
-	•	Natural Language Processing (NLP) for identifying sensitive information within user data and public web data.
-	•	Sentiment Analysis for reputation tracking, highlighting any online mentions that could affect a user’s privacy or reputation.
-	•	Reinforcement Learning to refine recommendations and improve over time based on user actions.
+## How is it used?
+Features
+* Digital Footprint Summary: Provides a visual overview of the user’s online presence, showing active and inactive accounts, public mentions, and identified privacy risks.
+* Risk Alerts: Notifies users if their information appears in a data breach or on the dark web.
+* Automated Cleanup Suggestions: Recommends steps to delete old accounts, improve privacy settings, and remove personal data from search engines.
+* Guided Account Deletion: Offers step-by-step instructions for closing old accounts or removing information.
+* Privacy Checkups: Regular recommendations for updating security and privacy settings on major platforms.
 
-4. How it is Used
 
-CleanMyTrace would work as an easy-to-use mobile app or web dashboard, providing:
+## Data sources and AI methods
+* Machine Learning to categorize risky accounts based on activity and user behavior.
+* Natural Language Processing (NLP) for identifying sensitive information within user data and public web data.
+* Sentiment Analysis for monitoring online mentions that could affect a user’s privacy or reputation.
+* Reinforcement Learning to improve recommendation accuracy based on user interactions over time.
 
-	•	Digital Footprint Summary: A visual overview of your online presence, showing active and inactive accounts, public mentions, and privacy risks.
-	•	Risk Alerts: Notifications if your information appears in a data breach or on the dark web.
-	•	Automated Cleanup Suggestions: Tips on how to delete old accounts, improve privacy settings, or remove personal data from search engines.
-	•	Guided Account Deletion: Step-by-step instructions to close old accounts or remove information.
-	•	Privacy Checkups: Recommendations for updating security and privacy settings on major platforms.
+Usage
+* Sign Up & Connect Accounts: Users create an account and securely link their online accounts for monitoring.
+* Receive a Footprint Summary: CleanMyTrace generates a report of all active, inactive, and potentially risky accounts.
+* Get Cleanup Recommendations: Users receive personalized suggestions to enhance privacy and remove old accounts.
+* Take Action: The app guides users through deleting outdated accounts or updating privacy settings with easy-to-follow instructions.
 
-5. Challenges
+Benefits
+* Privacy Protection: Users regain control over their online presence, minimizing risks of identity theft and data exposure.
+* Convenient Cleanup: Personalized suggestions and step-by-step account deletion guides make managing digital footprints simple.
+* Peace of Mind: Real-time alerts and summaries assure users that their personal data is secure.
 
-	•	Data Privacy and Security: Ensuring CleanMyTrace doesn’t inadvertently collect or expose more personal data, and that it complies with GDPR, CCPA, and other privacy regulations.
-	•	Integration Limits: Accessing all necessary data may be restricted by certain platforms’ APIs or privacy policies.
-	•	Accuracy of Recommendations: Avoiding false positives or over-warnings that could overwhelm the user instead of helping them.
+## Challenges
+Data Privacy and Security: Ensuring CleanMyTrace does not inadvertently collect or expose personal data, while complying with GDPR, CCPA, and other privacy regulations.
+* Integration Restrictions: Limited access to data from certain platforms due to API restrictions or privacy policies.
+* Recommendation Accuracy: Balancing effective risk alerts without overwhelming the user with unnecessary notifications.
 
-6. What Next?
+Future Enhancements
+* Family Plan: Extend functionality to help users manage family members’ digital footprints.
+* Legacy Mode: Simplify account management for older users, potentially incorporating features for secure digital estate planning.
+* Real-Time Monitoring: Integrate with popular platforms to monitor account safety and privacy settings continuously.
 
-CleanMyTrace could expand to include a Family Plan that lets users help family members manage their digital footprint and a Legacy Mode to simplify digital accounts for older users. The app could eventually integrate with major digital and social platforms for real-time monitoring and add features for secure digital estate planning.
+## What next?
 
-7. Acknowledgments
+How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
 
-This app would use open-source libraries for secure API connections, web scraping (where permitted), and sentiment analysis. It would also rely on secure data storage practices, anonymizing sensitive information to ensure users’ privacy.
 
-Benefits to the User
+## Acknowledgments
 
-	•	Privacy Protection: Users gain control over their online presence, reducing the risk of data exposure and identity theft.
-	•	Easy Cleanup: With personalized cleanup suggestions and account deletion guidance, users can manage their online presence more effectively.
-	•	Peace of Mind: Real-time alerts and summaries give users confidence that their personal data is safe and secure.
-
-This app would be a valuable tool for anyone looking to reduce their digital footprint and take back control of their online identity in an increasingly connected world.
+* CleanMyTrace leverages open-source libraries for secure API connections, web scraping (where permitted), and sentiment analysis. The app follows best practices for secure data storage, anonymizing sensitive information to protect user privacy.
+* CleanMyTrace is a valuable tool for anyone looking to reduce their digital footprint and take back control of their online identity in an increasingly connected world.
